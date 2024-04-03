@@ -1,0 +1,25 @@
+.Neon {
+
+    padding: 20px;
+
+    font-weight: 500;
+
+    pointer-events: all;
+
+    padding: 0 20px;
+
+    font-size: 1.5rem;
+
+    color: white;
+
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+
+}
+
+.Neon[aria-selected="true"] {
+
+    color: hsl(317 100% 54%);
+
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+
+}
